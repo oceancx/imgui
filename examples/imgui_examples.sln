@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example_win32_directx9", "example_win32_directx9\example_win32_directx9.vcxproj", "{4165A294-21F2-44CA-9B38-E3F935ABADF5}"
 EndProject
@@ -17,7 +17,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example_glfw_opengl3", "exa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example_glfw_vulkan", "example_glfw_vulkan\example_glfw_vulkan.vcxproj", "{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example_sdl_opengl2", "example_sdl_opengl2\example_sdl_opengl2.vcxproj", "{2AE17FDE-F7F3-4CAC-ADAB-0710EDA4F741}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example_sdl_opengl2", "example_sdl_opengl2\example_sdl_opengl2.vcxproj", "{94E991D0-790A-4DAF-B442-AAADE3233C75}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example_sdl_opengl3", "example_sdl_opengl3\example_sdl_opengl3.vcxproj", "{BBAEB705-1669-40F3-8567-04CF6A991F4C}"
 EndProject
@@ -124,5 +124,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87DE093B-189B-41E2-95DC-999DAEE6DA13}
 	EndGlobalSection
 EndGlobal
