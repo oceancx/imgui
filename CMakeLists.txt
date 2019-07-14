@@ -11,8 +11,8 @@ add_library(imgui
     imgui_demo.cpp
     imgui_draw.cpp
     imgui_widgets.cpp
-    extra/imgui_impl.cpp
-    extra/wrap_imgui_impl.cpp
+    # extra/imgui_impl.cpp
+    # extra/wrap_imgui_impl.cpp
 )
 
 target_include_directories(imgui
